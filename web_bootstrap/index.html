@@ -6,75 +6,514 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Bootstrap</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/icofont.css">
 </head>
 
 <body>
+    <!--NAVIGATION-->
+    <section id="color">
+        <section class="navigation">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.j"></script>
-</body>
-<!--NAVIGATION-->
-<section class="background">
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-            <div class="contain-head">
-                <img class="logo_img" src="./pic/logo.png" alt="Smile">
-                <h1><a class="navbar-brand" href="#" style="color:#012970;">FlexStart</a></h1>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="color:#013289;">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"></a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <h1><a href=""><img src="./images/logo.svg" alt="Smile"></a></h1>
+
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav ms-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#" style="color:#013289;">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+                        <button class="ms-auto hire">Hire Me</button>
+                    </div>
+                </div>
+
+            </nav>
+        </section>
+
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="banner-name py-5">
+                            <h5>
+                                <img src="./images/hend.png">
+                                <span></span>
+                            </h5>
+                            <h2></h2>
+                            <h6></h6>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-7 " style="border:2px solid red">
+                        <div class="bann-img">
+                            <img src="images/user-image.png" alt="" class="img-fluid" ;>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-    <div class="grid text-left d-xl-flex">
-        <div class="g-col-6 g-col-md-6`">
-            <h2>We offer modern solutions for growing your business</h2>
-            <p>We are team of talented designers making websites with Bootstrap</p>
-            <button>Get Started</button>
-        </div>
-        <div class="g-col-6 g-col-md-6">
-            <img src="./pic/hero-img.png" alt="Smile" width="100%">
-        </div>
-      </div>
 
-</section>
+    </section>
+    <section id="about">
+        <section class="container">
+            <div class="title">
+                <h4>About Me</h4>
+            </div>
+            <div class="row py-5 ">
+                <div class="col-lg-6">
+                    <div class="about_img">
+                        <img src="./images/about-me.png" alt="" class="img-fluid" ;>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row ps-1">
+                        <div class="col-lg-12">
+                            <div class="about_rt_txt">
+                                <p style="color:#10a7e8" class="abt_intro">My Intro</p>
+                                <h3>I am <span> Prabhu</span></h3>
+                                <p style="color: #928b8b;">A lead Full Stack Developer Based in India</p>
+                                <p style="color: #928b8b;font-size: 15px;">I design and develop services for customers
+                                    of all sizes, specializing in creating stylish, modern websites, web services and
+                                    online stores. My passion is to design
+                                    digital user experiences through the bold interface and meaningful interactions.
+                                    Check out my Portfolio.</p>
+                                <p style="color: #928b8b;font-size: 15px;">I like work with new people. New people new
+                                    Experiences.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="abt_txt2">
+                                <p style="color: #928b8b;font-size: 15px;" style="color: #928b8b;font-size: 15px;">
+                                    Birthday: <b>4th April 1994</b></p>
+                                <p style="color: #928b8b;font-size: 15px;" style="color: #928b8b;font-size: 15px;">Age:
+                                    <b>26 Years</b>
+                                </p>
+                                <p style="color: #928b8b;font-size: 15px;" style="color: #928b8b;font-size: 15px;">
+                                    Address: <b>San Francisco</b></p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="abt_txt3">
+                                <p style="color: #928b8b;font-size: 15px;" style="color: #928b8b;font-size: 15px;">
+                                    Phone: <b>(+38) 469 2344 2364</b></p>
+                                <p style="color: #928b8b;font-size: 15px;" style="color: #928b8b;font-size: 15px;">
+                                    Email: <b>info@domainname.com</b></p>
+                                <p style="color: #928b8b;font-size: 15px;" style="color: #928b8b;font-size: 15px;">
+                                    Skype: <b>nairob.40</b></p>
+
+                            </div>
+                        </div>
+                        <div col-lg-12>
+                            <div class="abt_dwd">
+                                <a href="#" class="btn butt">Download cv</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- SKILLS & EXPERIENCE -->
+    <section id="skills " style="background-color:#e0f3f3;">
+        <div class="container">
+            <section class="skills">
+                <div class="title pt-5">
+                    <h4>Skills & Experience</h4>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="skills_icon1 pt-3">
+                                    <img src="images/icon-1.png" alt="">
+                                    <h6 class="ms-2 pt-3">HTML</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="skills_icon2 pt-3">
+                                    <img src="images/icon-2.png" alt="">
+                                    <h6 class="ms-4 pt-3">CSS</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="skills_icon1 pt-3">
+                                    <img src="images/icon-3.png" alt="">
+                                    <h6 class="ms-1 pt-3">WORDPRESS</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="skills_icon2 pt-3">
+                                    <img src="images/icon-4.png">
+                                    <h6 class="ms-1 pt-3">NODE</h6>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="skills_icon2 pt-3">
+                                    <img src="images/icon-4.png">
+                                    <h6 class="ms-1 pt-3">GULP</h6>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="skills_icon1 pt-3">
+                                    <img src="images/icon-5.png" alt="">
+                                    <h6 class="ms-1 pt-3">ANGULAR</h6>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row pt-3">
+                            <div class="col-lg-2">
+                                <div class="skills_yr ">
+                                    <p>2021</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="skills_cont">
+                                    <h4><b>Senior Product Designer</b></h4>
+                                    <p>VRTEAM DESIGNS</p>
+                               </div>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <div>
+                                    <p>Continue</p>
+                                </div>
+                            </div>
+                            <div class="row pt-3">
+                                <div class="col-lg-2">
+                                    <div class="skills_yr ">
+                                        <p>2020</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="skills_cont">
+                                        <h4><b>Senior Product Designer</b></h4>
+                                        <p>VRTEAM DESIGNS</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <p>Continue</p>
+                                    </div>
+                                </div>
+                                <div class="row pt-3">
+                                    <div class="col-lg-2">
+                                        <div class="skills_yr ">
+                                            <p>2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="skills_cont">
+                                            <h4><b>Senior Product Designer</b></h4>
+                                            <p>VRTEAM DESIGNS</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <p>Continue</p>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-2">
+                                            <div class="skills_yr ">
+                                                <p>2018</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="skills_cont">
+                                                <h4><b>Senior Product Designer</b></h4>
+                                                <p>VRTEAM DESIGNS</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div>
+                                                <p>Continue</p>
+                                            </div>
+                                        </div>
+                                        <div class="row pt-3">
+                                            <div class="col-lg-2">
+                                                <div class="skills_yr ">
+                                                    <p>2017</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="skills_cont">
+                                                    <h4><b>Senior Product Designer</b></h4>
+                                                    <p>VRTEAM DESIGNS</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div>
+                                                    <p>Continue</p>
+                                                </div>
+                                            </div>
+                                            <div class="row pt-3">
+                                                <div class="col-lg-2">
+                                                    <div class="skills_yr ">
+                                                        <p>2016</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="skills_cont">
+                                                        <h4><b>Senior Product Designer</b></h4>
+                                                        <p>VRTEAM DESIGNS</p>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div>
+                                                        <p>Continue</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            </section>
+        </div>
+
+
+    </section>
+
+    <!--WHAT I DO  -->
+    <section id="what">
+        <div class="container">
+            <div class="title pt-5">
+                <h3>What I dO?</h3>
+            </div>
+            <div class="what pt-5">
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <div class="what_cont">
+                            <img src="images/icon-1.png" alt="">
+                            <h4 class="pt-3">Web Design</h4>
+                            <p class="pt-3 ">Lorem ipsum dolor sit amet consectetur adip elit. 
+                                Eligendi molestiae ullam quam officiis nisi eiusdf est tenetur cumque quidem culpa.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="what_cont">
+                            <img src="images/icon-2.png" alt="">
+                            <h4 class="pt-3">Digital Marketing</h4>
+                            <p class="pt-3 ">Lorem ipsum dolor sit amet consectetur adip elit. 
+                                Eligendi molestiae ullam quam officiis nisi eiusdf est tenetur cumque quidem culpa.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="what_cont">
+                            <img src="images/icon-3.png" alt="">
+                            <h4 class="pt-3">Graphic Design</h4>
+                            <p class="pt-3 ">Lorem ipsum dolor sit amet consectetur adip elit. 
+                                Eligendi molestiae ullam quam officiis nisi eiusdf est tenetur cumque quidem culpa.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row pt-5 text-center">
+                    <div class="col-lg-4">
+                        <div class="what_cont">
+                            <img src="images/icon-4.png" alt="">
+                            <h4 class="pt-3">Web Development</h4>
+                            <p class="pt-3 ">Lorem ipsum dolor sit amet consectetur adip elit. 
+                                Eligendi molestiae ullam quam officiis nisi eiusdf est tenetur cumque quidem culpa.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="what_cont">
+                            <img src="images/icon-5.png" alt="">
+                            <h4 class="pt-3">App Development</h4>
+                            <p class="pt-3 ">Lorem ipsum dolor sit amet consectetur adip elit. 
+                                Eligendi molestiae ullam quam officiis nisi eiusdf est tenetur cumque quidem culpa.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="what_cont">
+                            <img src="images/icon-2.png" class="img-fluid">
+                            <h4 class="pt-3">UI/UX Designer</h4>
+                            <p class="pt-3 ">Lorem ipsum dolor sit amet consectetur adip elit. 
+                                Eligendi molestiae ullam quam officiis nisi eiusdf est tenetur cumque quidem culpa.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR LATEST PROJECTS -->
+    <section id="our_latest_projects ">
+        <section class="container pt-5">
+            <div class="title">
+                <h4>Our Latest Projects</h4>
+            </div>
+            <div class="our_latest">
+            <div class="row py-5">
+                <div class="col-lg-4">
+                    <div>
+                    <img src="./images/work-2.png" class="img-fluid">
+                </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="our_img">
+                    <img src="./images/work-3.png" class="img-fluid">
+                </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                    <img src="./images/work-1.png" class="img-fluid">
+                </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </section>
+
+    <!-- WHAT PEOPLESAY ABOUT US -->
+    <section></section>
+
+    <!-- MY BLOGS AND NEWS -->
+    <section id="blogs">
+        <section class="container">
+            <div class="title">
+                <h4>My Blogs and News</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog_cont">
+                        <img src="images/blog-1.jpg" class="img-fluid">
+                        <p class="pt-3">16 June 2021</p>
+                        <h5>Prevent 75% of visitors from google analytics</h5>
+                        <span class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laudantium in natus architecto, consequatur optio qui.</span>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog_cont">
+                        <img src="images/blog-2.jpg" class="img-fluid">
+                        <p class="pt-3">16 June 2021</p>
+                        <h5>Prevent 75% of visitors from google analytics</h5>
+                        <span class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laudantium in natus architecto, consequatur optio qui.</span>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog_cont">
+                        <img src="images/blog-3.jpg" class="img-fluid">
+                        <p class="pt-3">16 June 2021</p>
+                        <h5>Prevent 75% of visitors from google analytics</h5>
+                        <span class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laudantium in natus architecto, consequatur optio qui.</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- TAKE A COFFEE AND CHAT WITH ME -->
+    <section id="take_a_coffee">
+        <section class="container pt-5p">
+            <div class="title"><h4>Take a Coffee & chat with me </h4></div>
+            <div class="row pt-4">
+                <div class="col-lg-12 take_cont justify-content-center">
+                    <div class="row ">
+                        <div class="col-lg-6">
+                    <div class="footer_email">
+                        <img src="images/email.png" class="img-fluid">
+                        <span>info@mywebsite.com</span>
+                    </div>
+                </div>
+               
+                <div class="col-lg-6">
+                    <div class="footer_phone">
+                        <img src="./images/phone.png" class="img-fluid">
+                        <span>+90 2145 7889 2525</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_name">
+                        <label class="pt-3" for="">
+                            <input class=" ps-3" type="text" placeholder="Your Name">
+                        </label>
+                    <label class="ps-5 pt-3" for="">
+                        <input type="text" class=" ps-2" placeholder="Email Address">
+                    </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 pt-3 ps-3">
+                    <div class="subject">
+                        <label for="">
+                            <input type="text" class="ps-2" placeholder="Subject" class="">
+                        </label>
+                    </div>
+                </div>
+                <div class="col-lg-12 ps-3">
+                    <div class="subject">
+                       
+                            <textarea name="" class="ps-2" id=""placeholder="Your Message Here" cols="30" rows="10"></textarea>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+    <script src="./jquery/script.js"></script>
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>

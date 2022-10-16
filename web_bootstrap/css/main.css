@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hire{
+    padding: 10px 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color:#fff;
+
+}
+#color{
+    /* background-color: #8EC5FC; */
+    background: linear-gradient(90deg, rgba(43, 214, 215, 1) 20%, rgba(235, 229, 229, 1) 45%, rgba(255, 0, 224, 0.27494747899159666) 60%);
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
+.about_rt_txt{
+    margin-top: 10%;
+}
+.abt_intro{
+    font-weight: 700;
+}
+.abt_txt2 p b,
+.abt_txt3 p b{
+    color: rgb(77, 74, 74);
+}
+.abt_dwd .butt{
+    background-color: rgb(69, 69, 228);
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+/* SKILLS & EXPERIENCE */
+.skills_cont h4{
+    font-size: 18px;
+    color: rgb(88, 85, 85);
+}
+.skills_cont p{
+    font-size: 12px;
+    color:rgb(184, 171, 171);
+}
+/* WHAT I DO */
+.what_cont p{
+    color:rgb(184, 171, 171);
+    font-weight: 500;
+    font-size: 16px;
+}
+/*  */
+@media(min-width:992px){
+    .our_img{
+        margin-top: -30px;
+    }
+
+}
+/* My Blogs */
+.blog_cont img{
+    border-radius: 25px;
+}
+.para{
+    color:rgb(184, 171, 171);
+    font-size: 15px;
+}
+/* Take a coffee  */
+/* .take_cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_name{
+    display: flex;
+    justify-content: center;
+}
+.footer_name input{
+    padding: 0 50px;
+}
+[placeholder]{
+    font-size: 15px;
+}
+.subject{
+    width: 100%;
+} */
