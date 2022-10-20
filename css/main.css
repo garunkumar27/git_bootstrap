@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header-scrolled{
+    /* background-color: rgb(255 255 255 / 78%); */
+    background-color: #fff;
+}
+.header{
+    align-items: center;
+    text-align: center;
+}
+.top-icon{
+   left: auto;
+   right: 50px;
+   top: 10px;
+}
+
+.top-icon i{
+    font-size: 28px;
+}
+.ul_list{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.ul_list li{
+    padding-left: 45px;
+}
+#color{
+    background: linear-gradient(90deg, rgb(141, 230, 230) 20%, rgb(243, 234, 234) 45%, rgba(241, 184, 235, 0.275) 60%);
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
+.about_rt_txt{
+    margin-top: 10%;
+}
+.abt_intro{
+    font-weight: 700;
+}
+.abt_txt2 p b,
+.abt_txt3 p b{
+    color: rgb(77, 74, 74);
+}
+.butt{
+    background-color: rgb(69, 69, 228);
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+.banner{
+    padding-top: 50px;
+}
+/* SKILLS & EXPERIENCE */
+.skills_cont h4{
+    font-size: 18px;
+    color: rgb(88, 85, 85);
+}
+.skills_wh{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills_cont p{
+    font-size: 12px;
+    color:rgb(184, 171, 171);
+}
+/* WHAT I DO */
+.what_cont p{
+    color:rgb(184, 171, 171);
+    font-weight: 500;
+    font-size: 16px;
+}
+.footer_email{
+    background-color: rgba(241, 182, 237,0.4);
+    padding: 10px;
+    border-radius: 20px;
+}
+.footer_phone{
+    background-color: rgba(205, 237, 245,0.4);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media(min-width:500px){
+.our_img{
+    margin-top: 30px;
+}
+.our_latest{
+    text-align: center;
+}
+.our_image3{
+    margin-top: 30px;
+}
+.blog_cont{
+    padding: 20px 0px;
+}
+.skills_whico{
+    align-items: center;
+}
+}
+@media(min-width:992px){
+    .our_img{
+        margin-top: -30px;
+    }
+    .skills_whico{
+        display: flex;
+        align-items: flex-start;
+    }
+
+}
+/* My Blogs */
+.blog_cont img{
+    border-radius: 25px;
+}
+.para{
+    color:rgb(184, 171, 171);
+    font-size: 15px;
+}
+/* Take a coffee  */
+.footer_name input,
+.foot_email input{
+    padding: 0 50px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px grey;
+}
+[placeholder]{
+    font-size: 15px;
+}
+.subject input{
+    border: none;
+    padding-top:10px ;
+    width: 100%;
+    border-bottom: solid 1px grey;
+}
+.message_here textarea{
+    border-bottom: solid 1px grey;
+    border: none;
+    border-bottom: solid 1px grey ;
+    padding-top: 30px;
+    width: 100%;
+} 
+form{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .drop-down{
+	position: relative;
+	display: f lex;
+	justify-content: space-evenly;
+	width: inherit;
+} */
+/*
+.drop-down1{
+	position: absolute;
+	right: 8%;
+	top: 2%;
+	display:block;
+	transition: 2s;
+	background-color: #fff;
+	height: 200px;
+}
+.drop-down li a:hover{
+	color: red;
+}
+ .drop-down li:nth-child(7):hover .drop-down1{
+	display: block;
+	top: 100%;
+}
+
+.deepdropdown{
+	display: block;
+	position: absolute;
+	width: 250px;
+	height: 200px;
+
+}
+.deepdropdown li a{
+	padding:10px 100px;
+}
+
+.drop-down1 li:nth-child(2):hover .deepdropdown{
+	display: block;
+	right: 100%;
+	top: 10%;
+	
+} */
+
+/* .dropdown::after{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height:5px;
+    right: 14%;
+    transform: rotate(-45deg);
+    top: 20%;
+    z-index: 10000;
+    border: 2px solid black;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    transition: 0.5s;
+    pointer-events: none;
+}  */
