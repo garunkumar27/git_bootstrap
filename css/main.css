@@ -6,7 +6,6 @@
     text-decoration: none;
 }
 .header-scrolled{
-    /* background-color: rgb(255 255 255 / 78%); */
     background-color: #fff;
 }
 .header{
@@ -18,34 +17,16 @@
    right: 50px;
    top: 10px;
 }
-
 .top-icon i{
     font-size: 28px;
+    display:block;
 }
-.ul_list{
-    display: flex;
-    justify-content: center;
-    margin: 0;
+
+.but{
+    display: none;
 }
-.ul_list li{
-    padding-left: 45px;
-}
-#color{
-    background: linear-gradient(90deg, rgb(141, 230, 230) 20%, rgb(243, 234, 234) 45%, rgba(241, 184, 235, 0.275) 60%);
-}
-.title{
-    text-align: center;
-    padding-top: 10px;
-}
-.about_rt_txt{
-    margin-top: 10%;
-}
-.abt_intro{
-    font-weight: 700;
-}
-.abt_txt2 p b,
-.abt_txt3 p b{
-    color: rgb(77, 74, 74);
+.logo{
+    text-align: left;
 }
 .butt{
     background-color: rgb(69, 69, 228);
@@ -57,6 +38,32 @@
 .banner{
     padding-top: 50px;
 }
+.banner-name{
+    text-align: center;
+}
+.banner-name h2{
+    font-size: 45px;
+    color: #1877f2;
+}
+#color{
+    background: linear-gradient(90deg, rgb(141, 230, 230) 20%, rgb(243, 234, 234) 45%, rgba(241, 184, 235, 0.275) 60%);
+}
+.title h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+}
+.about_rt_txt{
+    margin-top: 10%;
+}
+.abt_intro{
+    font-weight: 700;
+}
+.abt_txt2 p b,
+.abt_txt3 p b{
+    color: rgb(77, 74, 74);
+}
+
 /* SKILLS & EXPERIENCE */
 .skills_cont h4{
     font-size: 18px;
@@ -69,6 +76,20 @@
 .skills_cont p{
     font-size: 12px;
     color:rgb(184, 171, 171);
+}
+/* People */
+.people_ico{
+    font-size: 25px;
+}
+.people_star i{
+    color:#1877f2;
+}
+.people_cont{
+    width: 50%;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #ebf0f1;
+    margin: auto;
 }
 /* WHAT I DO */
 .what_cont p{
@@ -86,40 +107,12 @@
     padding: 10px;
     border-radius: 20px;
 }
-
-@media(min-width:500px){
-.our_img{
-    margin-top: 30px;
-}
-.our_latest{
-    text-align: center;
-}
-.our_image3{
-    margin-top: 30px;
-}
-.blog_cont{
-    padding: 20px 0px;
-}
-.skills_whico{
-    align-items: center;
-}
-}
-@media(min-width:992px){
-    .our_img{
-        margin-top: -30px;
-    }
-    .skills_whico{
-        display: flex;
-        align-items: flex-start;
-    }
-
-}
 /* My Blogs */
 .blog_cont img{
     border-radius: 25px;
 }
 .para{
-    color:rgb(184, 171, 171);
+    color:#b8abab;
     font-size: 15px;
 }
 /* Take a coffee  */
@@ -148,6 +141,61 @@
 } 
 form{
     text-align: center;
+}
+.our_image3{
+    margin-top: 30px;
+}
+.our_img{
+    margin-top: 30px;
+}
+
+
+
+@media(min-width:500px){
+.our_img{
+    margin-top: 30px;
+}
+.our_latest{
+    text-align: center;
+}
+.our_image3{
+    margin-top: 30px;
+}
+.blog_cont{
+    padding: 20px 0px;
+}
+.skills_whico{
+    align-items: center;
+}
+}
+@media(min-width:992px){
+    .ul_list li{
+        margin-left: 15px;
+    }
+    .but{
+        display: block;
+    }
+    .top-icon i{
+        display:none;
+    }
+    .our_img{
+        margin-top: -30px;
+    }
+    .skills_whico{
+        display: flex;
+        align-items: flex-start;
+    }
+    
+
+}
+@media(min-width:1200px){
+    .top-icon i{
+        display: none;
+    }
+    .ul_list li{
+        margin-left: 25px;
+    }
+   
 }
 
 
